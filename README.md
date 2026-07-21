@@ -21,8 +21,6 @@ bbl
 1009720001
 ```
 
-BBLs should be stored as text so leading zeros are preserved.
-
 ## User settings
 
 In **Section 2: User settings**, edit these three variables:
