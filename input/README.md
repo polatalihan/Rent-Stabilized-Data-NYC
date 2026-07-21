@@ -1,2 +1,5 @@
+# NYC Rent-Stabilized Housing Building List 
+
 Master_BBL_DHCR_PLUTO26.csv combines the New York City [Rent Buidelines Board list](https://rentguidelinesboard.cityofnewyork.us/resources/rent-stabilized-building-lists/) of rent-stabilized properties with all residential tax lots from the latest MapPLUTO release. Because the DHCR dataset contains only property addresses, these addresses must first be converted to Borough-Block-Lot (BBL) identifiers using a geocoding service such as the NYC Geoclient/Geocoder, which supports batch processing. The resulting BBL list is then supplemented with all residential BBLs from the current MapPLUTO dataset. Since new residential buildings are added to MapPLUTO each year, updating the master BBL list annually is essential to ensure newly constructed rent-stabilized properties are included in the tax bill analysis.
+
 Including all residential BBLs—not just those currently listed by DHCR—allows the scraper to identify newly added rent-stabilized properties that may not yet appear in previously compiled address lists.
